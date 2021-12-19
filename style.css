@@ -1,13 +1,11 @@
+/* defaults */
 body {
    background-color: #343536;
    color: blanchedalmond;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
+/* sets image styling below nav bar */
 .image {
     background-image: url("./carrara-white-marble.jpg");
     height: 300px;
@@ -16,7 +14,14 @@ a {
     background-position: center;
 }
 
-/* Megan's Portfolio needs to be in a box */
+/* styling for Ugh Its Megan, --still needs to be moved to bottom right corder with smaller border-- */
+.image p {
+    color: blanchedalmond;
+    padding: 20px;
+    background-color: #0e0d0d;
+}
+
+/* --Megan's Portfolio still needs to touch the side of the window-- */
 header {
     display: flex;
     justify-content: space-between;
@@ -26,32 +31,34 @@ header {
     color: blanchedalmond;
 }
 
-
-
+/* placement of links in nav bar */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* styling for links in Nav Bar */
 header nav ul li a {
     color: blanchedalmond;
+    text-decoration: underline;
 }
 
+/* formatting for Megans Portfolio text */
 header h1 {
     display: inline-block;
     font-size: 50px;
 }
 
-
+/* design for nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color: blanchedalmond;
-
 }
 
+/* formatting for main section flexboxes */
 main {
     display: flex;
     flex-direction: column;
@@ -60,48 +67,50 @@ main {
     margin-left: 100px;
 }
 
+/* makes About Me section easier to read */
 #about-me {
-    display: flex;
-    justify-content: space-evenly;
     line-height: 1.5;
 }
 
-#about-me h1 {
+header h1 {
+    padding: 10px 10px 10px 80px;
+    background-color: #0e0d0d;
+    margin: 0px;
+}
+
+/* gives h1 tags the line after the section title */
+ #about-me h1, #work h1, #contact-me h1 {
     border-right: 5px solid #000000;
     padding: 20px;
+    font-size: 50px;
 }
 
-.font {
-    max-width: 60%;
-    max-height: 40%;
-}
-
-#work{
+/* layout of flexbox for each section */
+#about-me, #work, #contact-me {
     display: flex;
     justify-content: space-evenly;
 }
 
-#work h1 {
-    border-right: 5px solid #000000;
-    padding: 20px;
-}
-
-#contact-me {
-    display: flex;
-    justify-content: center;
-}
-
-#contact-me {
-    border-right: 5px solid #000000;
-    padding: 20px;
-}
-
-.grid {
+/* sets borders for each section */
+.grid, .contact-me, .font {
     max-width: 60%;
     max-height: 40%;
 }
 
-.contact-me {
-    max-height: 40%;
-    max-width: 60%;
+/* alters the top photo in grid */
+.example {
+    height: 800px;
+    width: 800px;
+}
+
+/* formatting for links, --still need to center somehow-- */
+.contact p {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* styles the links in footer section */
+.contact a {
+    color: blanchedalmond;
+    text-decoration: underline;
 }
