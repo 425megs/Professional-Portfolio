@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* defaults */
 body {
    background-color: #343536;
@@ -83,16 +88,27 @@ header h1 {
 }
 
 /* gives h1 tags the line after the section title */
- #about-me h1, #work h1, #contact-me h1 {
+ .contentHeader{
     border-right: 5px solid #000000;
     padding: 20px;
+}
+
+.headers {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 0;
+    margin: 20px;
+    max-width: 15vw;
+}
+
+h1 {
     font-size: 50px;
 }
 
 /* layout of flexbox for each section */
 #about-me, #work, #contact-me {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 /* sets borders for each section */
@@ -187,7 +203,7 @@ header h1 {
 /* formatting for links, --still need to center somehow-- */
 .contact p {
     display: inline-block;
-    padding: 10px;
+    padding: 45px;
 }
 
 /* styles the links in footer section */
