@@ -19,7 +19,7 @@ body {
     background-position: center;
 }
 
-/* styling for Ugh Its Megan, --still needs to be moved to bottom right corder with smaller border-- */
+/* styling for Ugh Its Megan*/
 .image p {
     color: blanchedalmond;
     padding: 20px;
@@ -30,7 +30,6 @@ body {
     align-items: flex-end;
 }
 
-/* --Megan's Portfolio still needs to touch the side of the window-- */
 header {
     display: flex;
     justify-content: space-between;
@@ -111,7 +110,7 @@ h1 {
     justify-content: space-around;
 }
 
-/* sets borders for each section */
+/* sets sizing for each section */
 .grid, .contact-me, .font {
     max-width: 60%;
     max-height: 40%;
@@ -200,7 +199,7 @@ h1 {
     width: 800px;
 }
 
-/* formatting for links, --still need to center somehow-- */
+/* formatting for links */
 .contact p {
     display: inline-block;
     padding: 45px;
