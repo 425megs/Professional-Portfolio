@@ -5,27 +5,16 @@
 
 /* defaults */
 body {
-   background-color: #EBEBEB;
+   background-color: #e9e9e9;
    color: #323232;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/* sets image styling below nav bar */
-.image {
-    background-image: url("./carrara-white-marble.jpg");
-    height: 300px;
-    width: 100%;
-    margin-bottom: 30px;
-    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #EBEBEB;
-    color: #323232;
+    padding: 10px;
+    background-color: #000000;
 }
 
 /* placement of links in nav bar */
@@ -34,25 +23,17 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* styling for links in Nav Bar */
-header nav ul li a {
-    color: #323232;
-    text-decoration: underline;
+/* styling for links */
+a {
+    color: #ffffff;
 }
 
-/* formatting for Megans Portfolio text */
-header h1 {
-    display: inline-block;
-    font-size: 50px;
-}
 
 /* design for nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    color: #323232;
 }
 
 /* formatting for main section flexboxes */
@@ -73,6 +54,10 @@ main {
  .contentHeader{
     border-right: 5px solid #829CD0;
     padding: 20px;
+}
+
+#ex1, #ex2, #ex3, #ex4, #ex5 {
+    background-color: #829CD0;
 }
 
 .headers {
@@ -111,7 +96,7 @@ h1 {
     background-image: url(./password.png);
     grid-row: 1;
     grid-column: 1/3;
-    height: 600px;
+    height: 300px;
     width: 1010px;
     border: 5px solid #829CD0;
 }
@@ -141,8 +126,8 @@ h1 {
 }
 
 .grid-item2 {
-    background-image: url(./1.jpeg);
-    height: 100px;
+    background-image: url(popcorn.jpeg);
+    height: 200px;
     width: 490px;
     grid-row: 2;
     grid-column: 1;
@@ -150,10 +135,10 @@ h1 {
 }
 
 .grid-item3 {
-    background-image: url(./2.jpeg);
+    background-image: url(test.jpeg);
     grid-row: 2;
     grid-column: 2;
-    height: 100px;
+    height: 200px;
     width: 490px;
     border: 5px solid #829CD0;
 }
@@ -162,7 +147,7 @@ h1 {
     background-image: url(./3.jpeg);
     grid-row: 3;
     grid-column: 1;
-    height: 100px;
+    height: 200px;
     width: 490px;
     border: 5px solid #829CD0;
 }
@@ -171,25 +156,20 @@ h1 {
     background-image: url(./4.jpeg);
     grid-row: 3;
     grid-column: 2;
-    height: 100px;
+    height: 200px;
     width: 490px;
     border: 5px solid #829CD0;
-}
-
-/* alters the top photo in grid */
-.example {
-    height: 800px;
-    width: 800px;
 }
 
 /* formatting for links */
 .contact p {
     display: inline-block;
     padding: 45px;
+    color: #829CD0;
 }
 
 /* styles the links in footer section */
 .contact a {
-    color: #323232;
+    color: #829CD0;
     text-decoration: underline;
 }
