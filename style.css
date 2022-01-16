@@ -1,13 +1,13 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* defaults */
 body {
    background-color: #e9e9e9;
    color: #323232;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -17,23 +17,9 @@ header {
     background-color: #000000;
 }
 
-/* placement of links in nav bar */
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 /* styling for links */
 a {
     color: #ffffff;
-}
-
-
-/* design for nav bar */
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-size: 20px;
 }
 
 /* formatting for main section flexboxes */
@@ -45,6 +31,19 @@ main {
     margin-left: 100px;
 }
 
+/* placement of links in nav bar */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* design for nav bar */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
 /* makes About Me section easier to read */
 #about-me {
     line-height: 1.5;
@@ -53,7 +52,7 @@ main {
 /* gives h1 tags the line after the section title */
  .contentHeader{
     border-right: 5px solid #829CD0;
-    padding: 20px;
+    padding: 15px;
 }
 
 #ex1, #ex2, #ex3, #ex4, #ex5 {
@@ -64,8 +63,8 @@ main {
     display: flex;
     justify-content: flex-end;
     flex: 1 1 0;
-    margin: 20px;
-    max-width: 15vw;
+    margin: 10px;
+    max-width: 5vw;
 }
 
 h1 {
@@ -76,6 +75,7 @@ h1 {
 #about-me, #work, #contact-me {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 /* sets sizing for each section */
@@ -99,30 +99,6 @@ h1 {
     height: 300px;
     width: 1010px;
     border: 5px solid #829CD0;
-}
-
-.grid-item1 p {    
-    background-color: #EBEBEB;
-    color: #323232;}
-
-.grid-item2 p {
-    background-color: #EBEBEB;
-    color: #323232;
-}
-
-.grid-item3 p {
-    background-color: #EBEBEB;
-    color: #323232;
-}
-
-.grid-item4 p {
-    background-color: #EBEBEB;
-    color: #323232;
-} 
-
-.grid-item5 p {
-    background-color: #EBEBEB;
-    color: #323232;
 }
 
 .grid-item2 {
